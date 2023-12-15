@@ -29,9 +29,7 @@ public class SortingAlgorithms {
 
     }
 
-    public static int[] mergeSort(int[] arrayToSort) {
-
-        System.out.println(Arrays.toString(arrayToSort));
+    public static int[] mergeSort(int[] arrayToSort) {;
 
         if(arrayToSort.length < 2){
             return arrayToSort;
@@ -44,4 +42,6 @@ public class SortingAlgorithms {
 
         return merge(rightHalf, leftHalf);
     }
+
+
 }
