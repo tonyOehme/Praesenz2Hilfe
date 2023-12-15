@@ -1,5 +1,4 @@
-package pgdp.pingulib.datastructures.trees;
-
+package KnotenUndBaeume;
 import java.util.LinkedList;
 import java.util.List;
 

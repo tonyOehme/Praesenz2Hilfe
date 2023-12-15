@@ -1,4 +1,4 @@
-package pgdp.pingulib.datastructures.trees;
+package KnotenUndBaeume;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -79,7 +79,7 @@ public class BinaryNode<T> extends Node<T> {
 			case IN -> {return "["+ left + ", " + getValue() + ", " +  right +"]";}
 			case PRE -> {return "["+ getValue() + ", "+ left  + ", "+  right +"]";}
 			case POST -> {return "["+ left + ", "  +  right + ", " + getValue() + "]";}
-			default -> {return "SOMETHING WENT WRONG!";}
+			default -> {return "invalid argument hahahi";}
 		}
 	}
 

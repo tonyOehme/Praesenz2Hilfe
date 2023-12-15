@@ -1,5 +1,4 @@
-package pgdp.pingulib.datastructures.trees;
-
+package KnotenUndBaeume;
 import java.util.List;
 
 public abstract class Node<T> {

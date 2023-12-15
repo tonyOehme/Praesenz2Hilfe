@@ -1,4 +1,4 @@
-package pgdp.pingulib.datastructures.trees;
+package KnotenUndBaeume;
 
 public class BSTNode<T extends Comparable<T>> extends BinaryNode<T> {
 
