@@ -29,7 +29,31 @@ you will need this method for a bonus-exercise in week 10 <br>
 ```
     return currentElement != null;
 ```
+"Mom I can reverse a linked list now"
+
+```
+public void reverse() {
+        //TODO
+        // make next element point to current one and point head & tail correctly
+        tail = head;
+        ListElement<T> previous = null;
+        ListElement<T> next = null;
+        ListElement<T> current = head;
+        while (current != null){
+            next = current.getNext();
+            current.setNext(previous);
+            previous = current;
+            current = next;
+        }
+
+        head = previous;
+
+    }
+```
+
 4.notes to self: 
+- auf richtige imports achten bei Vererbungen
+- java doesnt like it raw
 - easy money aufgaben zuerst
 - always check invalid inputs(null, empty list, ArrayOutOfBounds)
 - user instanceof to figure out if subclass
