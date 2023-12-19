@@ -22,19 +22,22 @@ you will need this method for a bonus-exercise in week 10 <br>
 ```
     public Iterator<Destination> iterator() {   
 
-        return new Iterator(?<>)(someargument);
+        return new Iterator(someargument);
     }
 ```
 ```
     return currentElement != null;
 ```
 4.notes to self: 
+- easy money aufgaben zuerst
+- always check invalid inputs(null, empty list, ArrayOutOfBounds)
+- user instanceof to figure out if subclass
 - == for primitive type /memory comparison
 - Object.equals() for everything else 
 - before writing code, plan out algorithm
-- always check invalid inputs(null, empty list, ArrayOutOfBounds)
 - track change with boolean value
 - Integer division cuts off fractional part
+- Iterable Interface kann man mit for-schleifen loopen
 - implement getter and setter
 - hasNext() most of the time <br>
 - next() return current element and switches current element to next
@@ -45,7 +48,7 @@ you will need this method for a bonus-exercise in week 10 <br>
 Recursion101:
 - base case(s)
 - recursive case
-- memoization hashmap
+- memoization hashmap manchmal
 
 
 wenn alles verkackt -> datenstruktur aussuchen und aufgaben lösen
