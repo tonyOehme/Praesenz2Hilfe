@@ -8,6 +8,7 @@ contents:
 
 1.sorting algorithms: 
 - mergeSort
+- bubbleSort
 
 2.artemis homework: 
 - Bäume und Knoten W08H04
